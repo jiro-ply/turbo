@@ -2,17 +2,6 @@
 <html>
   <head><title>Test.Web</title></head>
   <body>
-    <h1><font color="blue">web deployment test</font></h1>
-    <table align="centre" border="1">
-      <tr>
-        <td>Session ID</td>
-    <% session.setAttribute("abc","abc"); %>
-        <td><%= session.getId() %></td>
-      </tr>
-      <tr>
-        <td>Created on</td>
-        <td><%= session.getCreationTime() %></td>
-     </tr>
-    </table>
+    <h1><font color="blue">hello world, turbo!</font></h1>
   </body>
 </html>
